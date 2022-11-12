@@ -557,9 +557,64 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
+.pj_h1 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 800;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.pj_h2 {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.pj_p {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  line-height: 1.5;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .pj_p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.pj_ul {
+  margin-bottom: 1.5rem;
+  list-style-type: disc;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .pj_ul {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+.pj_img {
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .mt-12 {
@@ -635,42 +690,17 @@ video {
   padding: 1.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.pt-10 {
-  padding-top: 2.5rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 
 .pt-8 {
   padding-top: 2rem;
 }
 
-.pt-7 {
-  padding-top: 1.75rem;
-}
-
-.text-center {
-  text-align: center;
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-3xl {
@@ -725,15 +755,20 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.text-blue-700 {
+  --tw-text-opacity: 1;
+  color: rgb(29 78 216 / var(--tw-text-opacity));
+}
+
 /* this bit is taken from Evan You's website */
 
-.hover {
+.hover_sp {
   text-decoration: none;
   white-space: nowrap;
   position: relative;
 }
 
-.hover::after {
+.hover_sp::after {
   content: '';
   position: absolute;
   z-index: -1;
@@ -745,8 +780,14 @@ video {
   background-color: rgba(79, 192, 141, 0.5);
 }
 
-.hover:hover:after {
+.hover_sp:hover:after {
   top: 0%;
+}
+
+/* project page styles */
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 @media (min-width: 768px) {
@@ -792,11 +833,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-  }
-
-  .lg\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
   }
 
   .lg\:px-44 {

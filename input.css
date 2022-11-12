@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 /* this bit is taken from Evan You's website */
-.hover {
+.hover_sp {
     text-decoration: none;
     white-space: nowrap;
     position: relative;
   }
   
-  .hover::after {
+  .hover_sp::after {
     content: '';
     position: absolute;
     z-index: -1;
@@ -21,6 +21,25 @@
     background-color: rgba(79, 192, 141, 0.5);
   }
   
-  .hover:hover:after {
+  .hover_sp:hover:after {
     top: 0%;
+  }
+
+  /* project page styles */
+  @layer components {
+    .pj_h1 {
+      @apply text-2xl text-black font-extrabold mb-4;
+    }
+    .pj_h2 {
+      @apply text-xl text-black font-bold mb-3;
+    }
+    .pj_p {
+      @apply text-base lg:text-lg mb-6 text-black leading-normal;
+    }
+    .pj_ul {
+      @apply list-disc text-base lg:text-lg mb-6 text-black;
+    }
+    .pj_img {
+      @apply  bg-slate-100 rounded-lg px-16 py-6;
+    }
   }
