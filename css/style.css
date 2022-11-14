@@ -748,6 +748,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -838,18 +842,6 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
-@media (min-width: 480px) {
-  .sm\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
-  .sm\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
 }
 
 @media (min-width: 768px) {
