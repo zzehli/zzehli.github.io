@@ -25,6 +25,9 @@
     top: 0%;
   }
 
+  .hide {
+    display: none
+  }
   /* project page styles */
   @layer components {
     .pj_h1 {
