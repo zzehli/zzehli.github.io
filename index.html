@@ -71,17 +71,17 @@
             <div class="inline-flex rounded-md mt-4" role="group">
                 <button type="button"
                     data-filter="all"
-                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-black border-2 hover:bg-slate-200 ">
+                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-black border-2 hover:bg-slate-200 focus:bg-slate-200">
                     All
                 </button>
                 <button type="button"
                     data-filter="web"
-                    class="filter py-2 px-4 text-sm font-bold text-black bg-white  border-t-2 border-b-2 border-black hover:bg-slate-200">
+                    class="filter py-2 px-4 text-sm font-bold text-black bg-white  border-t-2 border-b-2 border-black hover:bg-slate-200 focus:bg-slate-200">
                     Web and Networking
                 </button>
                 <button type="button"
                     data-filter="sys"
-                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-2 border-black hover:bg-slate-200 ">
+                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-2 border-black hover:bg-slate-200 focus:bg-slate-200">
                     System
                 </button>
             </div>
@@ -92,10 +92,11 @@
                         <a href="/proj/instagram.html" rel="noopener noreferrer"
                             class="text-xl leading-tight font-semibold hover_sp">Instagram Mini</a>
                         <p class="text-gray-700 text-base mt-2">
-                            An Instagram clone with React at the frontend and Python Flask at the backend. Data is
-                            stored in a SQLite database and managed by a REST API.
-                            As a user, one can create, modify, comment, and like posts. One can interact with other
-                            users through following and browse unfollowed users through the explore function.
+                            A social media web application that allow users to manage individual accounts, create posts, and interact with other
+                            users through follow and explore functions. The application uses a blend of <span class="font-bold">React</span> and statically generated <span class="font-bold">Jinja </span>Jinja templates in the frontend and
+                            a <span class="font-bold">Flask </span> server managing a <span class="font-bold">SQLite</span> database and <span class="font-bold">REST APIs</span>. The application is deployed with <span class="font-bold">AWS EC2</span>.
+                           
+                            
                         </p>
                     </div>
                     <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
@@ -103,7 +104,7 @@
                             class="text-xl leading-tight font-semibold hover_sp">Award Season</a>
                         <p class="text-gray-700 text-base mt-2">
                             It's award season, which means you should nominate your favorite movies! This single-page
-                            responsive React (with Material UI components) application allows you to search movies,
+                            responsive <span class="font-bold">React</span> (with <span class="font-bold">Material UI</span> components) application allows you to search movies,
                             nominate them and export your nominations to refer back to them later.
                         </p>
                     </div>
@@ -127,7 +128,7 @@
                         <a href="https://github.com/zzehli/websocket-server" target="_blank" rel="noopener noreferrer"
                             class="text-xl leading-tight font-semibold hover_sp">WebSocket Server</a>
                         <p class="text-gray-700 text-base mt-2">
-                            A WebSocket server built according to the WebSocket protocol on top of NodeJS.
+                            A WebSocket server built according to the WebSocket protocol on top of <span class="font-bold">NodeJS</span>.
                             The server establishes handshakes and processes messages according to data frames specified
                             in the protocol.
                             Function-wise, the server receives messages and sends them to all the clients connected to
