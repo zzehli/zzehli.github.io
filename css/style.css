@@ -557,15 +557,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.pj_h1 {
-  margin-bottom: 1rem;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  font-weight: 800;
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .pj_h2 {
   margin-bottom: 0.75rem;
   font-size: 1.25rem;
@@ -811,14 +802,18 @@ video {
   line-height: 1.5rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.font-extrabold {
+  font-weight: 800;
 }
 
 .font-medium {
