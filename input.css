@@ -4,45 +4,57 @@
 
 /* this bit is taken from Evan You's website */
 .hover_sp {
-    text-decoration: none;
-    white-space: nowrap;
-    position: relative;
-  }
-  
-  .hover_sp::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    top: 80%;
-    left: -0.1em;
-    right: -0.1em;
-    bottom: 0;
-    transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
-    background-color: rgba(79, 192, 141, 0.5);
-  }
-  
-  .hover_sp:hover:after {
-    top: 0%;
+  text-decoration: none;
+  white-space: nowrap;
+  position: relative;
+}
+
+.hover_sp::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 80%;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: 0;
+  transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
+  background-color: rgba(79, 192, 141, 0.5);
+}
+
+.hover_sp:hover:after {
+  top: 0%;
+}
+
+.hide {
+  display: none
+}
+
+@layer components {
+  /* project specific page styles start with pj */
+  .pj_h1 {
+    @apply text-2xl text-black font-extrabold mb-4;
   }
 
-  .hide {
-    display: none
+  .pj_h2 {
+    @apply text-xl text-black font-bold mb-3;
   }
-  /* project page styles */
-  @layer components {
-    .pj_h1 {
-      @apply text-2xl text-black font-extrabold mb-4;
-    }
-    .pj_h2 {
-      @apply text-xl text-black font-bold mb-3;
-    }
-    .pj_p {
-      @apply text-base lg:text-lg mb-6 text-black leading-normal;
-    }
-    .pj_ul {
-      @apply list-disc text-base lg:text-lg mb-6 text-black;
-    }
-    .pj_img {
-      @apply  bg-slate-100 rounded-lg px-16 py-6;
-    }
+
+  .pj_p {
+    @apply text-base lg:text-lg mb-6 text-black leading-normal;
   }
+
+  .pj_ul {
+    @apply list-disc text-base lg:text-lg mb-6 text-black;
+  }
+
+  .pj_img {
+    @apply bg-slate-100 rounded-lg px-16 py-6;
+  }
+
+}
+
+/* This is for toggle select buttons */
+.pressBtn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}

@@ -22,10 +22,15 @@
 
             </h1>
             <p class="text-lg md:text-xl lg:text-2xl text-black mb-5 lg:mb-7">
-                I am a software developer co-op at <a href="https://www.signiant.com/" target="_blank" rel="noopener noreferrer" class="font-bold">Signiant</a> and graduate student at uOttawa.
-                I am also a member of the <a href="https://uorover.org/" target="_blank" rel="noopener noreferrer" class="font-bold">uOttawa Mars Rover </a> team, where I am responsible for developing remote control systems.
-                I am interested in researching and building software systems, especially in the domain of web technologies and
-                robotics. Beyond specific technologies, I am a keen observer of the Ottawa tech scene. You can find me in various tech meetups in town.
+                I am a software developer co-op at <a href="https://zafin.com/" target="_blank"
+                    rel="noopener noreferrer" class="font-bold">Zafin</a> and graduate student at uOttawa.
+                I am also a member of the <a href="https://uorover.org/" target="_blank" rel="noopener noreferrer"
+                    class="font-bold">uOttawa Mars Rover </a> team, where I am responsible for developing remote control
+                systems.
+                I am interested in researching and building software systems, especially in the domain of web
+                technologies and
+                robotics. Beyond specific technologies, I am a keen observer of the Ottawa tech scene. You can find me
+                in various tech meetups in town.
             </p>
             <!-- need a longer introduction and emphasize certain words -->
             <div class="flex space-x-5 lg:space-x-6">
@@ -68,93 +73,120 @@
             </h1>
 
             <div class="inline-flex rounded-md mt-4" role="group">
-                <button type="button"
-                    data-filter="all"
-                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-black border-2 hover:bg-slate-200 focus:bg-slate-200">
+                <button type="button" data-filter="all"
+                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-black border-2 hover:bg-slate-200">
                     All
                 </button>
-                <button type="button"
-                    data-filter="web"
-                    class="filter py-2 px-4 text-base font-semibold text-black bg-white  border-t-2 border-b-2 border-black hover:bg-slate-200 focus:bg-slate-200">
+                <button type="button" data-filter="web"
+                    class="filter py-2 px-4 text-base font-semibold text-black bg-white  border-t-2 border-b-2 border-black hover:bg-slate-200">
                     Web Development
                 </button>
-                <button type="button"
-                    data-filter="sys"
-                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-2 border-black hover:bg-slate-200 focus:bg-slate-200">
+                <button type="button" data-filter="sys"
+                    class="filter py-2 px-4 text-base font-semibold text-black bg-white border-2 border-black hover:bg-slate-200">
                     Software
                 </button>
             </div>
 
-            <div class="mt-5">
-                <div class="space-y-5 lg:space-y-8">
-                    <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="/proj/friendspace.html" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">Friend Space</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            A photo-sharing social media web application that enables users to manage accounts, create posts, and interact with other
-                            users through like, comment, and explore functions. The application uses a blend of <span class="font-bold">React</span> and statically generated <span class="font-bold">Jinja </span>templates for the user interface and
-                            a <span class="font-bold">Flask </span> server managing an <span class="font-bold">SQLite</span> database and <span class="font-bold">REST APIs</span>. The application is hosted on <span class="font-bold">AWS EC2</span>. 
-                        </p>
-                    </div>
-                    <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="https://github.com/zzehli/serverless-file-transfer" target="_blank" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">Link Transfer</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            Link Transfer is a cloud-based file-sharing application built for fast and secure file transfer. This CLI-based application deploys AWS services to provision serverless functions (<span class="font-bold">AWS Lambda</span>) and object storage (<span class="font-bold">S3</span>). The user interface is a custom-built
-                            <span class="font-bold">NodeJS</span> application that interacts with REST API endpoints on a custom domain managed by <span class="font-bold">Route 53</span>.
-                        </p>
-                    </div>
-                    <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="https://github.com/zzehli/gather" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">Gather</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            Gather is a chat application that allows users to create chat rooms and chat individually or as a group. This application uses <span class="font-bold">Socket IO</span> to enable real-time messaging. The front end uses <span class="font-bold">NextJS</span> and <span class="font-bold">React</span> and the backend uses <span class="font-bold">NodeJS</span>. 
-                            Containerized with <span class="font-bold">Docker</span> for local development and deployment.
-                        </p>
-                    </div>
-                    <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="https://award-nominations.netlify.app/" target="_blank" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">Award Season</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            It's award season, which means you should nominate your favorite movies! This single-page
-                            responsive <span class="font-bold">React</span> (with <span class="font-bold">Material UI</span> components) application allows you to search movies,
-                            nominate them and export your nominations to refer back to them later.
-                        </p>
-                    </div>
-                    <div data-filter="sys" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="https://github.com/zzehli/gitlet" target="_blank" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">Gitlet</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            An independent implementation of the version control system <span class="font-bold">Git</span> in <span class="font-bold">Java</span>. Gitlet supports
-                            most of Git's local functionalities: add, commit, checkout, log, as well as branching
-                            actions including merge and rebase.
-                        </p>
-                    </div>
-                    <div data-filter="sys" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="https://github.com/zzehli/PicoProlog" target="_blank" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">PicoProlog</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            An implementation of prolog in <span class="font-bold">OCaml</span> including lexer, parser and evaluator. PicoProlog is
-                            built with <span class="font-bold">Ocamlbuild</span> and includes <span class="font-bold">unit tests</span> for each component.</p>
-                    </div>
-                    <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="https://github.com/zzehli/websocket-server" target="_blank" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">WebSocket Server</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            A WebSocket server built according to the WebSocket protocol on top of <span class="font-bold">NodeJS</span>.
-                            The server establishes handshakes and processes messages according to data frames specified
-                            in the protocol.
-                            Function-wise, the server receives messages and sends them to all the clients connected to
-                            the server.
-                        </p>
-                    </div>
-                    <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
-                        <a href="https://github.com/zzehli/Jinja_ssg" target="_blank" rel="noopener noreferrer"
-                            class="text-xl leading-tight font-semibold hover_sp">Jinja Generator</a>
-                        <p class="text-gray-700 text-base mt-2">
-                            A static site generator built from scratch. This <span class="font-bold">Python</span> package takes <span class="font-bold">Jinja</span> templates and
-                            static files, and render HTML pages.</p>
-                    </div>
+            <div class="mt-5 space-y-5 lg:space-y-8">
+                <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="/proj/friendspace.html" rel="noopener noreferrer"
+                        class="text-xl leading-tight font-semibold hover_sp">Friend Space</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        A photo-sharing social media web application that enables users to manage accounts, create
+                        posts, and
+                        interact with other
+                        users through like, comment, and explore functions. The application uses a blend of <span
+                            class="font-bold">React</span> and statically generated <span class="font-bold">Jinja
+                        </span>templates
+                        for the user interface and
+                        a <span class="font-bold">Flask </span> server managing an <span class="font-bold">SQLite</span>
+                        database
+                        and <span class="font-bold">REST APIs</span>. The application is hosted on <span
+                            class="font-bold">AWS
+                            EC2</span>.
+                    </p>
+                </div>
+                <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="https://github.com/zzehli/serverless-file-transfer" target="_blank"
+                        rel="noopener noreferrer" class="text-xl leading-tight font-semibold hover_sp">Link Transfer</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        Link Transfer is a cloud-based file-sharing application built for fast and secure file transfer.
+                        This
+                        CLI-based application deploys AWS services to provision serverless functions (<span
+                            class="font-bold">AWS
+                            Lambda</span>) and object storage (<span class="font-bold">S3</span>). The user interface is
+                        a
+                        custom-built
+                        <span class="font-bold">NodeJS</span> application that interacts with REST API endpoints on a
+                        custom domain
+                        managed by <span class="font-bold">Route 53</span>.
+                    </p>
+                </div>
+                <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="https://github.com/zzehli/gather" rel="noopener noreferrer"
+                        class="text-xl leading-tight font-semibold hover_sp">Gather</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        Gather is a chat application that allows users to create chat rooms and chat individually or as
+                        a group.
+                        This application uses <span class="font-bold">Socket IO</span> to enable real-time messaging.
+                        The front end
+                        uses <span class="font-bold">NextJS</span> and <span class="font-bold">React</span> and the
+                        backend uses
+                        <span class="font-bold">NodeJS</span>.
+                        Containerized with <span class="font-bold">Docker</span> for local development and deployment.
+                    </p>
+                </div>
+                <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="https://award-nominations.netlify.app/" target="_blank" rel="noopener noreferrer"
+                        class="text-xl leading-tight font-semibold hover_sp">Award Season</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        It's award season, which means you should nominate your favorite movies! This single-page
+                        responsive <span class="font-bold">React</span> (with <span class="font-bold">Material UI</span>
+                        components)
+                        application allows you to search movies,
+                        nominate them and export your nominations to refer back to them later.
+                    </p>
+                </div>
+                <div data-filter="sys" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="https://github.com/zzehli/gitlet" target="_blank" rel="noopener noreferrer"
+                        class="text-xl leading-tight font-semibold hover_sp">Gitlet</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        An independent implementation of the version control system <span class="font-bold">Git</span>
+                        in <span class="font-bold">Java</span>. Gitlet supports
+                        most of Git's local functionalities: add, commit, checkout, log, as well as branching
+                        actions including merge and rebase.
+                    </p>
+                </div>
+                <div data-filter="sys" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="https://github.com/zzehli/PicoProlog" target="_blank" rel="noopener noreferrer"
+                        class="text-xl leading-tight font-semibold hover_sp">PicoProlog</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        An implementation of prolog in <span class="font-bold">OCaml</span> including lexer, parser and
+                        evaluator.
+                        PicoProlog is
+                        built with <span class="font-bold">Ocamlbuild</span> and includes <span class="font-bold">unit
+                            tests</span>
+                        for each component.</p>
+                </div>
+                <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="https://github.com/zzehli/websocket-server" target="_blank" rel="noopener noreferrer"
+                        class="text-xl leading-tight font-semibold hover_sp">WebSocket Server</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        A WebSocket server built according to the WebSocket protocol on top of <span
+                            class="font-bold">NodeJS</span>.
+                        The server establishes handshakes and processes messages according to data frames specified
+                        in the protocol.
+                        Function-wise, the server receives messages and sends them to all the clients connected to
+                        the server.
+                    </p>
+                </div>
+                <div data-filter="web" class="project block p-6 border-solid border-2 border-black max-w-2xl">
+                    <a href="https://github.com/zzehli/Jinja_ssg" target="_blank" rel="noopener noreferrer"
+                        class="text-xl leading-tight font-semibold hover_sp">Jinja Generator</a>
+                    <p class="text-gray-700 text-base mt-2">
+                        A static site generator built from scratch. This <span class="font-bold">Python</span> package
+                        takes <span class="font-bold">Jinja</span> templates and
+                        static files, and render HTML pages.</p>
                 </div>
             </div>
         </div>
@@ -168,7 +200,8 @@
         filterBtn.forEach(filter => {
 
             filter.addEventListener('click', function () {
-
+                document.querySelector('.pressBtn')?.classList.remove('pressBtn')
+                filter.classList.add('pressBtn')
                 let selectedFilter = filter.getAttribute('data-filter');
                 let itemsToHide = document.querySelectorAll(`.project:not([data-filter='${selectedFilter}'])`);
                 let itemsToShow = document.querySelectorAll(`[data-filter='${selectedFilter}']`);

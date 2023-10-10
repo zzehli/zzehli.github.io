@@ -557,6 +557,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+/* project specific page styles start with pj */
+
 .pj_h2 {
   margin-bottom: 0.75rem;
   font-size: 1.25rem;
@@ -812,8 +814,8 @@ video {
   line-height: 1.25rem;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {
@@ -822,10 +824,6 @@ video {
 
 .font-semibold {
   font-weight: 600;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .leading-tight {
@@ -884,7 +882,12 @@ video {
   display: none
 }
 
-/* project page styles */
+/* This is for toggle select buttons */
+
+.pressBtn {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
 
 .hover\:bg-slate-200:hover {
   --tw-bg-opacity: 1;
@@ -893,11 +896,6 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
-}
-
-.focus\:bg-slate-200:focus {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 768px) {
