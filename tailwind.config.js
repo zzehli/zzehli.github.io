@@ -10,7 +10,7 @@ module.exports = {
       }
     },
     fontFamily:{
-      'sans': ['Rubik', 'sans-serif']
+      'sans': ['Roboto', 'sans-serif']
     }
   },
   plugins: [],
