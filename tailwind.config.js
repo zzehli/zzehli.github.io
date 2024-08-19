@@ -10,7 +10,7 @@ module.exports = {
       }
     },
     fontFamily:{
-      ubuntu: ['Rubik', 'sans-serif']
+      'sans': ['Rubik', 'sans-serif']
     }
   },
   plugins: [],
