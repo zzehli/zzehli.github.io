@@ -49,6 +49,10 @@
     writing-mode: vertical-rl;
 }
 
+@utility link {
+    @apply underline decoration-2 decoration-neutral-600 hover:text-neutral-400 hover:decoration-neutral-400;
+}
+
 @layer utilities {
 
   /* this bit is taken from Evan You's website */
