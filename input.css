@@ -3,8 +3,7 @@
 @theme {
   --font-*: initial;
   --font-sans: "Segoe UI", sans-serif;
-
-  --breakpoint-sm: 480px;
+  --color-chestnut: #292428;
 }
 
 /*
@@ -45,6 +44,10 @@
 
 @utility pj_img {
   @apply bg-slate-100 rounded-lg px-16 py-6;
+}
+
+@utility vertical {
+    writing-mode: vertical-rl;
 }
 
 @layer utilities {
