@@ -1,4 +1,4 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
   --font-*: initial;
@@ -14,7 +14,6 @@
   color utility to any element that depends on these defaults.
 */
 @layer base {
-
   *,
   ::after,
   ::before,
@@ -38,7 +37,7 @@
 }
 
 @utility pj_ul {
-  @apply list-disc text-base lg:text-lg mb-6 text-black;
+  @apply text-base lg:text-lg mb-6 text-black list-disc;
 }
 
 @utility pj_img {
@@ -46,15 +45,14 @@
 }
 
 @utility vertical {
-    writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
 }
 
 @utility link {
-    @apply underline decoration-2 decoration-neutral-600 hover:text-neutral-400 hover:decoration-neutral-400;
+  @apply decoration-neutral-600 hover:text-neutral-400 hover:decoration-neutral-400 underline decoration-2;
 }
 
 @layer utilities {
-
   /* this bit is taken from Evan You's website */
   .hover_sp {
     text-decoration: none;
@@ -63,7 +61,7 @@
   }
 
   .hover_sp::after {
-    content: '';
+    content: "";
     position: absolute;
     z-index: -1;
     top: 80%;
