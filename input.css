@@ -3,6 +3,7 @@
 @theme {
   --font-*: initial;
   --font-sans: "Segoe UI", sans-serif;
+  --font-serif: "Garamond", serif;
 }
 
 /*
