@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i input.css -o ./css/style.css --watch"
+  },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.4",
     "html-minifier": "^4.0.0",
